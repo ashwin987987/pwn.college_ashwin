@@ -1,5 +1,5 @@
 # Challenge Name
-mixing globs
+multiple globs
 
 ## My solve
 **Flag:** `pwn.college{AfROk3FtZTg8669DatpZoWU_ADJ.0lM3kjNxwyN0gjNzEzW}`
