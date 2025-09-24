@@ -1,0 +1,27 @@
+# Challenge Name
+implicit relative paths
+
+## My solve
+**Flag:** pwn.college{MvzhCj3xMa31fqCZX88bR2ndT9i.QXxUTN0wyN0gjNzEzW}
+```bash
+Connected!
+hacker@paths~implicit-relative-path:~$ cd /challenge
+hacker@paths~implicit-relative-path:/challenge$ .run
+bash: .run: command not found
+hacker@paths~implicit-relative-path:/challenge$ run
+bash: run: command not found
+hacker@paths~implicit-relative-path:/challenge$ cd .
+hacker@paths~implicit-relative-path:/challenge$ ./run
+Correct!!!
+./run is a relative path, invoked from the right directory!
+Here is your flag:
+pwn.college{MvzhCj3xMa31fqCZX88bR2ndT9i.QXxUTN0wyN0gjNzEzW}
+```
+## Incorrect tangents I went on
+gave the wrong relative path twice
+
+## What I learned
+I learned more about implicit relative paths
+
+## References 
+None
