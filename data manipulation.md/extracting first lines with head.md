@@ -14,7 +14,7 @@ pwn.college{URpcut0Z9xVOckI1LSfPG1YFyDP.0lNxEzNxwyN0gjNzEzW}
 None
 
 ## What I learned
-I learned to extract the first n lines of code using head -n 
+I learned to extract the first n lines of output using head -n 
 
 ## References 
 None
