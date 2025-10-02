@@ -8,7 +8,6 @@ scripting with conditionals
 Connected!
 hacker@chaining~scripting-with-conditionals:~$ cat > /home/hacker/solve.sh <<'EOF'
 #!/bin/bash
-# If first arg is "pwn", print "college", otherwise print nothing.
 if [ "$1" = "pwn" ]; then
   printf '%s\n' "college"
 fi
