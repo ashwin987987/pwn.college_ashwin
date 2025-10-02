@@ -7,7 +7,6 @@ scripting with arguments
 Connected!
 hacker@chaining~scripting-with-arguments:~$ cat > /home/hacker/solve.sh <<'EOF'
 #!/bin/bash
-# print the two arguments in reverse order
 printf '%s %s\n' "$2" "$1"
 EOF
 hacker@chaining~scripting-with-arguments:~$ chmod +x /home/hacker/solve.sh
