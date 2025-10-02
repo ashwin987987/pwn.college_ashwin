@@ -25,7 +25,7 @@ Congratulations, here is your flag: pwn.college{wuHdSNg2wh_LjvXvl9Iid62Ti9j.0VO4
 None
 
 ## What I learned
-I learned to detach and attach in tmux using ctrl + B 
+I learned to detach and attach in tmux using ctrl B + d and tmux a
 
 ## References 
 None
