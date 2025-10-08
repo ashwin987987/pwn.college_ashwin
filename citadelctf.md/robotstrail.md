@@ -1,13 +1,3 @@
-The Robot's Trail
-Author: Expli0it3r
-
-Category: Web
-
-Difficulty: Easy
-
-Description
-You enter a virtual maze, a labyrinth of shifting corridors and endless paths. A guardian robot patrols the floor, leaving a trail behind as it moves. Follow the path it carves, trace its movements carefully, and uncover the key it leads you to. Only by following the robot’s trail can you reach the door to the next floor.
-
 Writeup
 First inspect or look at the source code
 
@@ -69,5 +59,6 @@ and then u go to /file?path=/home/ctf/.secret and u get
             "-r-------- 1 ctf ctf   48 Jan  1 10:00 flag.txt\n"
             "\n"
 and then u go to /home/ctf/.secret/flag.txt and u get the flag!
+Flag: citadel{p4th_tr4v3rs4l_m4st3ry_4ch13v3d}
 
 Flag: citadel{p4th_tr4v3rs4l_m4st3ry_4ch13v3d}
